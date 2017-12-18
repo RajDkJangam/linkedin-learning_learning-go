@@ -24,4 +24,6 @@ func main() {
 		buffer.WriteString(chars[i])
 	}
 	fmt.Println(buffer.String())
+	fmt.Println("All done!")
+	// go run palindrome.go
 }
